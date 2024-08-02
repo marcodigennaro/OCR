@@ -1,10 +1,9 @@
 from pathlib import Path
-from PIL import Image
 from ocr.config import PNG_DIR
 
-image_file = Path(PNG_DIR).joinpath('offre.png')
-image = Image.open(image_file)
+import cv2
 
-print(image.size)
-image.show()
+image_file = Path(PNG_DIR).joinpath('offre.png')
+img = cv2.imread(image_file)
+
 
