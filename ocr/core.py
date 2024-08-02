@@ -1,5 +1,6 @@
 from matplotlib import pyplot as plt
 
+
 def display_image_inline(im_path, output_path=None):
     """
     Display an image inline in a Jupyter notebook.
@@ -17,10 +18,10 @@ def display_image_inline(im_path, output_path=None):
     height, width = im_data.shape[:2]  # Get the image dimensions
 
     # Calculate the figure size in inches
-    figsize = width / float(dpi), height / float(dpi)
+    fig_size = width / float(dpi) / 2, height / float(dpi) / 2
 
     # Create a figure with the calculated size and add an axes that takes up the full figure
-    fig = plt.figure(figsize=figsize)
+    fig = plt.figure(figsize=fig_size)
     ax = fig.add_axes([0, 0, 1, 1])
 
     # Hide the axes, spines, and ticks
