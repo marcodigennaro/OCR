@@ -122,4 +122,8 @@ Temporary Items
 *.swp
 *~
 
+# Poetry
+poetry.lock
+.poetry/
+
 # End of file
