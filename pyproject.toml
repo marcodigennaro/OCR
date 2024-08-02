@@ -12,6 +12,10 @@ opencv-python = "^4.10.0.84"
 pytesseract = "^0.3.10"
 pymupdf = "^1.24.9"
 pdf2image = "^1.17.0"
+opencv-contrib-python = "^4.10.0.84"
+ipython = "^8.26.0"
+jupyter = "^1.0.0"
+matplotlib = "^3.9.1"
 
 
 [build-system]

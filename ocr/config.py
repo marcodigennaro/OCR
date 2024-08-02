@@ -7,5 +7,4 @@ BASE_DIR = Path(__file__).parent.parent
 EXAMPLES_DIR = BASE_DIR / 'examples'
 PDF_DIR = EXAMPLES_DIR / 'pdfs'
 PNG_DIR = EXAMPLES_DIR / 'pngs'
-
-
+TMP_DIR = EXAMPLES_DIR / 'temp'
